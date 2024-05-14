@@ -24,6 +24,7 @@ class CommandLineArguments:
         self.mpa_path = pathlib.Path(self.args().mpa)
         self.outdir_path = pathlib.Path(self.args().outdir)
         self.write_dir_path = self.outdir_path / WRITE_DIR
+        self.sample_id = self.args().id
         return
 
     def args(self: Self) -> argparse.Namespace:

@@ -29,12 +29,17 @@ class TaxonomyReports():
     domain, kingdom, phylum, class, order, family, genus, ans species.
     """
 
-    def __init__(self: Self, df: pd.core.frame.DataFrame) -> None:
+    def __init__(
+            self: Self,
+            sample_id: str,
+            df: pd.core.frame.DataFrame
+            ) -> None:
         """Construct the class."""
         df.fillna('undef', inplace=True)
         df['domain'].replace('undef', 'd__Undefined', inplace=True)
         self.df = df
         self.df_original = self.df.copy()
+        self.sample_id = sample_id
         self.domain = DomainReport()
         self.kingdom = KingdomReport()
         self.phylum = PhylumReport()
@@ -68,7 +73,11 @@ class TaxonomyReports():
         outdir_terse = outdir / 'non_zero_reports'
         outdir_terse.mkdir()
         self.domain.format_report(zeros=False)
-        self.domain.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.domain.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.kingdom.format_report(zeros=False)
         self.kingdom.save_report(outdir=outdir_terse.as_posix(), index=True)
         self.phylum.format_report(zeros=False)

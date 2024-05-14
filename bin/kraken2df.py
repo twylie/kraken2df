@@ -57,7 +57,7 @@ kdf.parse_mpa_report()
 # dataframes. We remove rows from the original input dataframe as we
 # iterate through count collection.
 
-reports = kraken2df.TaxonomyReports(df=kdf.df.copy())
+reports = kraken2df.TaxonomyReports(sample_id=args.sample_id, df=kdf.df.copy())
 reports.df = reports.domain.collect_counts(df=reports.df)
 reports.df = reports.kingdom.collect_counts(df=reports.df)
 reports.df = reports.phylum.collect_counts(df=reports.df)
@@ -104,8 +104,8 @@ reports.compare_report_read_totals()
 # and (2) the full version of the report which includes zero read
 # counts.
 
-reports.write_all_terse_reports(outdir=args.write_dir_path, id=args.id)
-reports.write_all_verbose_reports(outdir=args.write_dir_path, id=args.id)
+reports.write_all_terse_reports(outdir=args.write_dir_path)
+reports.write_all_verbose_reports(outdir=args.write_dir_path)
 
 # Copy the original Kraken2 report file to the report directory for
 # reference.
