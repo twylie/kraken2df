@@ -1,0 +1,12 @@
+	sample_id	domain	kingdom	phylum	counts	counts_pct
+0	testing	d__Bacteria	undef	p__Bacillota	158731	0.0199
+1	testing	d__Bacteria	undef	p__Actinomycetota	13019	0.0016
+2	testing	d__Bacteria	undef	undef	6620	0.0008
+3	testing	d__Bacteria	undef	p__Pseudomonadota	3633	0.0005
+4	testing	d__Bacteria	undef	p__Bacteroidota	921	0.0001
+5	testing	d__Bacteria	undef	p__Fusobacteriota	456	0.0001
+6	testing	d__Bacteria	undef	p__Deinococcota	5	0.0
+7	testing	d__Eukaryota	k__Metazoa	p__Chordata	7807758	0.977
+8	testing	d__Viruses	k__Heunggongvirae	p__Peploviricota	4	0.0
+9	testing	d__Viruses	k__Pararnavirae	p__Artverviricota	4	0.0
+10	testing	d__Viruses	k__Shotokuvirae	p__Cossaviricota	392	0.0

@@ -1,0 +1,6 @@
+	sample_id	domain	counts	counts_pct
+0	testing	d__Eukaryota	7807758	0.977
+1	testing	d__Bacteria	183385	0.0229
+2	testing	d__Viruses	400	0.0001
+3	testing	d__Archaea	0	0.0
+4	testing	d__Undefined	0	0.0
