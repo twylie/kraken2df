@@ -99,7 +99,10 @@ class ClassReport():
         fho = out_dir / out_file
         df = self.df_f.copy()
         df.insert(0, 'sample_id', sample_id)
-        df['counts_pct'] = round(df['counts'].apply(lambda x: x / counts), 4)
+        df['counts_pct'] = round(
+            (df['counts'].apply(lambda x: x / counts)) * 100,
+            2
+        )
         df.to_csv(fho, sep='\t', index=index)
         return
 
