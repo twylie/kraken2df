@@ -58,6 +58,6 @@ RUN apt-get clean
 # Local Python Installations ##################################################
 
 COPY ./bin/kraken2df.py /usr/bin/kraken2df
-COPY ./kraken2df/ /usr/lib/python3.8/wlbfx
+COPY ./kraken2df/ /usr/lib/python3.8/kraken2df
 
 # __END__
