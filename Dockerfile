@@ -41,6 +41,7 @@ RUN apt-get install -y python3-pip
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install --upgrade setuptools
 RUN python3 -m pip install pandas
+RUN pip3 install typing-extensions
 
 # Kraken2 #####################################################################
 
