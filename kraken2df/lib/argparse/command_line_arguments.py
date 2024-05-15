@@ -8,7 +8,7 @@
 
 import argparse
 import pathlib
-from typing import Self
+from typing_extensions import Self
 
 VERSION = '1.0'
 WRITE_DIR = 'kraken2df'

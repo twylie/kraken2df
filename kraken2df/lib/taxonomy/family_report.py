@@ -8,7 +8,7 @@
 
 import pandas as pd  # type: ignore
 from pathlib import Path
-from typing import Self
+from typing_extensions import Self
 
 
 class FamilyReport():

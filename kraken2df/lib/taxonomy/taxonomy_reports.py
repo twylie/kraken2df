@@ -7,7 +7,7 @@
 # Copyright   : Copyright (C) 2024 by T.N. Wylie. All rights reserved.
 
 import pandas as pd  # type: ignore
-from typing import Self
+from typing_extensions import Self
 from pathlib import Path
 from . domain_report import DomainReport  # type: ignore
 from . kingdom_report import KingdomReport  # type: ignore

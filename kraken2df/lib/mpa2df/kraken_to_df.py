@@ -8,7 +8,7 @@
 
 import pathlib
 import pandas as pd  # type: ignore
-from typing import Self
+from typing_extensions import Self
 
 DF_REPORT = 'report_mpa_taxonomy.df.tsv'
 
