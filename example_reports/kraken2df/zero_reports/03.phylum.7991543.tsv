@@ -1,81 +1,81 @@
 	sample_id	domain	kingdom	phylum	counts	counts_pct
-0	testing	d__Archaea	undef	p__Euryarchaeota	0	0.0
-1	testing	d__Archaea	undef	p__Thermoproteota	0	0.0
-2	testing	d__Archaea	undef	p__Candidatus Korarchaeota	0	0.0
-3	testing	d__Archaea	undef	p__Nitrososphaerota	0	0.0
-4	testing	d__Archaea	undef	p__Nanoarchaeota	0	0.0
-5	testing	d__Archaea	undef	p__Candidatus Nanohaloarchaeota	0	0.0
-6	testing	d__Archaea	undef	p__Candidatus Micrarchaeota	0	0.0
-7	testing	d__Archaea	undef	p__Candidatus Lokiarchaeota	0	0.0
-8	testing	d__Archaea	undef	p__Candidatus Thermoplasmatota	0	0.0
-9	testing	d__Bacteria	undef	p__Bacillota	158731	0.0199
-10	testing	d__Bacteria	undef	p__Actinomycetota	13019	0.0016
-11	testing	d__Bacteria	undef	undef	6620	0.0008
-12	testing	d__Bacteria	undef	p__Pseudomonadota	3633	0.0005
-13	testing	d__Bacteria	undef	p__Bacteroidota	921	0.0001
-14	testing	d__Bacteria	undef	p__Fusobacteriota	456	0.0001
-15	testing	d__Bacteria	undef	p__Deinococcota	5	0.0
-16	testing	d__Bacteria	undef	p__Armatimonadota	0	0.0
-17	testing	d__Bacteria	undef	p__Chloroflexota	0	0.0
-18	testing	d__Bacteria	undef	p__Mycoplasmatota	0	0.0
-19	testing	d__Bacteria	undef	p__Cyanobacteriota	0	0.0
-20	testing	d__Bacteria	undef	p__Thermomicrobiota	0	0.0
-21	testing	d__Bacteria	undef	p__Chlorobiota	0	0.0
-22	testing	d__Bacteria	undef	p__Ignavibacteriota	0	0.0
-23	testing	d__Bacteria	undef	p__Rhodothermota	0	0.0
-24	testing	d__Bacteria	undef	p__Balneolota	0	0.0
-25	testing	d__Bacteria	undef	p__Fibrobacterota	0	0.0
-26	testing	d__Bacteria	undef	p__Gemmatimonadota	0	0.0
-27	testing	d__Bacteria	undef	p__Candidatus Cloacimonadota	0	0.0
-28	testing	d__Bacteria	undef	p__Deferribacterota	0	0.0
-29	testing	d__Bacteria	undef	p__Bdellovibrionota	0	0.0
-30	testing	d__Bacteria	undef	p__Myxococcota	0	0.0
-31	testing	d__Bacteria	undef	p__Caldisericota	0	0.0
-32	testing	d__Bacteria	undef	p__Coprothermobacterota	0	0.0
-33	testing	d__Bacteria	undef	p__Calditrichota	0	0.0
-34	testing	d__Bacteria	undef	p__Nitrospinota	0	0.0
-35	testing	d__Bacteria	undef	p__Candidatus Omnitrophota	0	0.0
-36	testing	d__Bacteria	undef	p__Verrucomicrobiota	0	0.0
-37	testing	d__Bacteria	undef	p__Kiritimatiellota	0	0.0
-38	testing	d__Bacteria	undef	p__Planctomycetota	0	0.0
-39	testing	d__Bacteria	undef	p__Chlamydiota	0	0.0
-40	testing	d__Bacteria	undef	p__Lentisphaerota	0	0.0
-41	testing	d__Bacteria	undef	p__Synergistota	0	0.0
-42	testing	d__Bacteria	undef	p__Spirochaetota	0	0.0
-43	testing	d__Bacteria	undef	p__Thermodesulfobacteriota	0	0.0
-44	testing	d__Bacteria	undef	p__Chrysiogenota	0	0.0
-45	testing	d__Bacteria	undef	p__Thermotogota	0	0.0
-46	testing	d__Bacteria	undef	p__Aquificota	0	0.0
-47	testing	d__Bacteria	undef	p__Elusimicrobiota	0	0.0
-48	testing	d__Bacteria	undef	p__Dictyoglomota	0	0.0
-49	testing	d__Bacteria	undef	p__Atribacterota	0	0.0
-50	testing	d__Bacteria	undef	p__Acidobacteriota	0	0.0
-51	testing	d__Bacteria	undef	p__Nitrospirota	0	0.0
-52	testing	d__Bacteria	undef	p__Campylobacterota	0	0.0
-53	testing	d__Bacteria	undef	p__Candidatus Bipolaricaulota	0	0.0
-54	testing	d__Bacteria	undef	p__Candidatus Saccharibacteria	0	0.0
-55	testing	d__Bacteria	undef	p__Candidatus Absconditabacteria	0	0.0
-56	testing	d__Eukaryota	k__Fungi	p__Ascomycota	0	0.0
-57	testing	d__Eukaryota	k__Metazoa	p__Chordata	7807758	0.977
-58	testing	d__Eukaryota	k__Viridiplantae	p__Streptophyta	0	0.0
-59	testing	d__Eukaryota	undef	p__Evosea	0	0.0
-60	testing	d__Eukaryota	undef	p__Heterolobosea	0	0.0
-61	testing	d__Eukaryota	undef	p__Bacillariophyta	0	0.0
-62	testing	d__Undefined	undef	undef	0	0.0
-63	testing	d__Viruses	k__Bamfordvirae	p__Nucleocytoviricota	0	0.0
-64	testing	d__Viruses	k__Bamfordvirae	p__Preplasmiviricota	0	0.0
-65	testing	d__Viruses	k__Helvetiavirae	p__Dividoviricota	0	0.0
-66	testing	d__Viruses	k__Heunggongvirae	p__Peploviricota	4	0.0
-67	testing	d__Viruses	k__Heunggongvirae	p__Uroviricota	0	0.0
-68	testing	d__Viruses	k__Loebvirae	p__Hofneiviricota	0	0.0
-69	testing	d__Viruses	k__Orthornavirae	p__Negarnaviricota	0	0.0
-70	testing	d__Viruses	k__Orthornavirae	p__Duplornaviricota	0	0.0
-71	testing	d__Viruses	k__Orthornavirae	p__Kitrinoviricota	0	0.0
-72	testing	d__Viruses	k__Orthornavirae	p__Lenarviricota	0	0.0
-73	testing	d__Viruses	k__Orthornavirae	p__Pisuviricota	0	0.0
-74	testing	d__Viruses	k__Pararnavirae	p__Artverviricota	4	0.0
-75	testing	d__Viruses	k__Sangervirae	p__Phixviricota	0	0.0
-76	testing	d__Viruses	k__Shotokuvirae	p__Cossaviricota	392	0.0
-77	testing	d__Viruses	k__Shotokuvirae	p__Cressdnaviricota	0	0.0
-78	testing	d__Viruses	k__Trapavirae	p__Saleviricota	0	0.0
-79	testing	d__Viruses	k__Zilligvirae	p__Taleaviricota	0	0.0
+0	Sample01	d__Archaea	undef	p__Euryarchaeota	0	0.0
+1	Sample01	d__Archaea	undef	p__Thermoproteota	0	0.0
+2	Sample01	d__Archaea	undef	p__Candidatus Korarchaeota	0	0.0
+3	Sample01	d__Archaea	undef	p__Nitrososphaerota	0	0.0
+4	Sample01	d__Archaea	undef	p__Nanoarchaeota	0	0.0
+5	Sample01	d__Archaea	undef	p__Candidatus Nanohaloarchaeota	0	0.0
+6	Sample01	d__Archaea	undef	p__Candidatus Micrarchaeota	0	0.0
+7	Sample01	d__Archaea	undef	p__Candidatus Lokiarchaeota	0	0.0
+8	Sample01	d__Archaea	undef	p__Candidatus Thermoplasmatota	0	0.0
+9	Sample01	d__Bacteria	undef	p__Bacillota	158731	1.99
+10	Sample01	d__Bacteria	undef	p__Actinomycetota	13019	0.16
+11	Sample01	d__Bacteria	undef	undef	6620	0.08
+12	Sample01	d__Bacteria	undef	p__Pseudomonadota	3633	0.05
+13	Sample01	d__Bacteria	undef	p__Bacteroidota	921	0.01
+14	Sample01	d__Bacteria	undef	p__Fusobacteriota	456	0.01
+15	Sample01	d__Bacteria	undef	p__Deinococcota	5	0.0
+16	Sample01	d__Bacteria	undef	p__Armatimonadota	0	0.0
+17	Sample01	d__Bacteria	undef	p__Chloroflexota	0	0.0
+18	Sample01	d__Bacteria	undef	p__Mycoplasmatota	0	0.0
+19	Sample01	d__Bacteria	undef	p__Cyanobacteriota	0	0.0
+20	Sample01	d__Bacteria	undef	p__Thermomicrobiota	0	0.0
+21	Sample01	d__Bacteria	undef	p__Chlorobiota	0	0.0
+22	Sample01	d__Bacteria	undef	p__Ignavibacteriota	0	0.0
+23	Sample01	d__Bacteria	undef	p__Rhodothermota	0	0.0
+24	Sample01	d__Bacteria	undef	p__Balneolota	0	0.0
+25	Sample01	d__Bacteria	undef	p__Fibrobacterota	0	0.0
+26	Sample01	d__Bacteria	undef	p__Gemmatimonadota	0	0.0
+27	Sample01	d__Bacteria	undef	p__Candidatus Cloacimonadota	0	0.0
+28	Sample01	d__Bacteria	undef	p__Deferribacterota	0	0.0
+29	Sample01	d__Bacteria	undef	p__Bdellovibrionota	0	0.0
+30	Sample01	d__Bacteria	undef	p__Myxococcota	0	0.0
+31	Sample01	d__Bacteria	undef	p__Caldisericota	0	0.0
+32	Sample01	d__Bacteria	undef	p__Coprothermobacterota	0	0.0
+33	Sample01	d__Bacteria	undef	p__Calditrichota	0	0.0
+34	Sample01	d__Bacteria	undef	p__Nitrospinota	0	0.0
+35	Sample01	d__Bacteria	undef	p__Candidatus Omnitrophota	0	0.0
+36	Sample01	d__Bacteria	undef	p__Verrucomicrobiota	0	0.0
+37	Sample01	d__Bacteria	undef	p__Kiritimatiellota	0	0.0
+38	Sample01	d__Bacteria	undef	p__Planctomycetota	0	0.0
+39	Sample01	d__Bacteria	undef	p__Chlamydiota	0	0.0
+40	Sample01	d__Bacteria	undef	p__Lentisphaerota	0	0.0
+41	Sample01	d__Bacteria	undef	p__Synergistota	0	0.0
+42	Sample01	d__Bacteria	undef	p__Spirochaetota	0	0.0
+43	Sample01	d__Bacteria	undef	p__Thermodesulfobacteriota	0	0.0
+44	Sample01	d__Bacteria	undef	p__Chrysiogenota	0	0.0
+45	Sample01	d__Bacteria	undef	p__Thermotogota	0	0.0
+46	Sample01	d__Bacteria	undef	p__Aquificota	0	0.0
+47	Sample01	d__Bacteria	undef	p__Elusimicrobiota	0	0.0
+48	Sample01	d__Bacteria	undef	p__Dictyoglomota	0	0.0
+49	Sample01	d__Bacteria	undef	p__Atribacterota	0	0.0
+50	Sample01	d__Bacteria	undef	p__Acidobacteriota	0	0.0
+51	Sample01	d__Bacteria	undef	p__Nitrospirota	0	0.0
+52	Sample01	d__Bacteria	undef	p__Campylobacterota	0	0.0
+53	Sample01	d__Bacteria	undef	p__Candidatus Bipolaricaulota	0	0.0
+54	Sample01	d__Bacteria	undef	p__Candidatus Saccharibacteria	0	0.0
+55	Sample01	d__Bacteria	undef	p__Candidatus Absconditabacteria	0	0.0
+56	Sample01	d__Eukaryota	k__Fungi	p__Ascomycota	0	0.0
+57	Sample01	d__Eukaryota	k__Metazoa	p__Chordata	7807758	97.7
+58	Sample01	d__Eukaryota	k__Viridiplantae	p__Streptophyta	0	0.0
+59	Sample01	d__Eukaryota	undef	p__Evosea	0	0.0
+60	Sample01	d__Eukaryota	undef	p__Heterolobosea	0	0.0
+61	Sample01	d__Eukaryota	undef	p__Bacillariophyta	0	0.0
+62	Sample01	d__Undefined	undef	undef	0	0.0
+63	Sample01	d__Viruses	k__Bamfordvirae	p__Nucleocytoviricota	0	0.0
+64	Sample01	d__Viruses	k__Bamfordvirae	p__Preplasmiviricota	0	0.0
+65	Sample01	d__Viruses	k__Helvetiavirae	p__Dividoviricota	0	0.0
+66	Sample01	d__Viruses	k__Heunggongvirae	p__Peploviricota	4	0.0
+67	Sample01	d__Viruses	k__Heunggongvirae	p__Uroviricota	0	0.0
+68	Sample01	d__Viruses	k__Loebvirae	p__Hofneiviricota	0	0.0
+69	Sample01	d__Viruses	k__Orthornavirae	p__Negarnaviricota	0	0.0
+70	Sample01	d__Viruses	k__Orthornavirae	p__Duplornaviricota	0	0.0
+71	Sample01	d__Viruses	k__Orthornavirae	p__Kitrinoviricota	0	0.0
+72	Sample01	d__Viruses	k__Orthornavirae	p__Lenarviricota	0	0.0
+73	Sample01	d__Viruses	k__Orthornavirae	p__Pisuviricota	0	0.0
+74	Sample01	d__Viruses	k__Pararnavirae	p__Artverviricota	4	0.0
+75	Sample01	d__Viruses	k__Sangervirae	p__Phixviricota	0	0.0
+76	Sample01	d__Viruses	k__Shotokuvirae	p__Cossaviricota	392	0.0
+77	Sample01	d__Viruses	k__Shotokuvirae	p__Cressdnaviricota	0	0.0
+78	Sample01	d__Viruses	k__Trapavirae	p__Saleviricota	0	0.0
+79	Sample01	d__Viruses	k__Zilligvirae	p__Taleaviricota	0	0.0
