@@ -79,19 +79,47 @@ class TaxonomyReports():
             index=True
         )
         self.kingdom.format_report(zeros=False)
-        self.kingdom.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.kingdom.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.phylum.format_report(zeros=False)
-        self.phylum.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.phylum.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.class_.format_report(zeros=False)
-        self.class_.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.class_.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.order.format_report(zeros=False)
-        self.order.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.order.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.family.format_report(zeros=False)
-        self.family.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.family.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.genus.format_report(zeros=False)
-        self.genus.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.genus.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.species.format_report(zeros=False)
-        self.species.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.species.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         return
 
     def write_all_verbose_reports(self: Self, outdir: Path) -> None:
@@ -99,21 +127,53 @@ class TaxonomyReports():
         outdir_terse = outdir / 'zero_reports'
         outdir_terse.mkdir()
         self.domain.format_report(zeros=True)
-        self.domain.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.domain.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.kingdom.format_report(zeros=True)
-        self.kingdom.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.kingdom.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.phylum.format_report(zeros=True)
-        self.phylum.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.phylum.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.class_.format_report(zeros=True)
-        self.class_.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.class_.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.order.format_report(zeros=True)
-        self.order.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.order.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.family.format_report(zeros=True)
-        self.family.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.family.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.genus.format_report(zeros=True)
-        self.genus.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.genus.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         self.species.format_report(zeros=True)
-        self.species.save_report(outdir=outdir_terse.as_posix(), index=True)
+        self.species.save_report(
+            sample_id=self.sample_id,
+            outdir=outdir_terse.as_posix(),
+            index=True
+        )
         return
 
 # __END__

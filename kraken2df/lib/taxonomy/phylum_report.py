@@ -105,7 +105,7 @@ class PhylumReport():
     def save_report(
             self: Self,
             outdir: str,
-            id: str,
+            sample_id: str,
             index: bool = True
             ) -> None:
         """Save a formatted report to a tab-delimited file."""
@@ -114,7 +114,7 @@ class PhylumReport():
         out_file = f'03.phylum.{counts}.tsv'
         fho = out_dir / out_file
         df = self.df_f.copy()
-        df.insert(0, 'sample_id', id)
+        df.insert(0, 'sample_id', sample_id)
         df['counts_pct'] = round(df['counts'].apply(lambda x: x / counts), 4)
         df.to_csv(fho, sep='\t', index=index)
         return
