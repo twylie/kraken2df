@@ -21,7 +21,7 @@ class CommandLineArguments:
         """Construct the class."""
         self.__arguments = self.__collect_cli_arguments()
         self.__eval_cli_arguments()
-        self.mpa_path = pathlib.Path(self.args().mpa)
+        self.report_path = pathlib.Path(self.args().report)
         self.outdir_path = pathlib.Path(self.args().outdir)
         self.write_dir_path = self.outdir_path / WRITE_DIR
         self.sample_id = self.args().id
@@ -60,10 +60,10 @@ class CommandLineArguments:
         required_group = parser.add_argument_group('required')
 
         required_group.add_argument(
-            '--mpa',
+            '--report',
             metavar='FILE',
             action='store',
-            help='File path to the source Kraken2 MPA report.',
+            help='File path to the source Kraken2 report.',
             required=True,
         )
 
@@ -89,11 +89,11 @@ class CommandLineArguments:
         """Evaluate CLI arguments and handle exceptions."""
         args = self.args()
 
-        mpa_path = pathlib.Path(args.mpa)
-        if mpa_path.is_file() is False:
+        report_path = pathlib.Path(args.report)
+        if report_path.is_file() is False:
             raise FileNotFoundError(
                 'File is missing.',
-                mpa_path.as_posix()
+                report_path.as_posix()
             )
 
         outdir_path = pathlib.Path(args.outdir)

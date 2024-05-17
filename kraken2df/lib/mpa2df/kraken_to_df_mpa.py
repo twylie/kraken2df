@@ -1,6 +1,6 @@
 # Project     : kraken2df
 # File Name   : kraken_to_df_mpa.py
-# Description : Converts a Kraken2 report to a dataframe.
+# Description : Converts a MPA format Kraken2 report to a dataframe.
 # Author      : Todd N. Wylie
 # Email       : twylie@wustl.edu
 # Created     : Fri May 17 09:29:27 CDT 2024
@@ -14,10 +14,11 @@ DF_REPORT = 'report_mpa_taxonomy.df.tsv'
 
 
 class KrakenToDataframeMPA:
+    """Convert a Kraken2 MPA format report to a dataframe."""
 
-    def __init__(self: Self, mpa: pathlib.Path,
+    def __init__(self: Self, report: pathlib.Path,
                  write_dir_path: pathlib.Path) -> None:
-        self.mpa_path = mpa
+        self.mpa_path = report
         self.write_dir_path = write_dir_path
         self.df: pd.core.frame.DataFrame
         self.df_path: pathlib.Path

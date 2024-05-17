@@ -42,8 +42,9 @@ import shutil
 args = kraken2df.CommandLineArguments()
 args.write_dir_path.mkdir()
 
+
 kdf = kraken2df.KrakenToDataframeMPA(
-    mpa=args.mpa_path,
+    report=args.report_path,
     write_dir_path=args.write_dir_path
 )
 kdf.parse_mpa_report()
@@ -107,7 +108,7 @@ reports.write_all_verbose_reports(outdir=args.write_dir_path)
 # Copy the original Kraken2 report file to the report directory for
 # reference.
 
-mpa_input_path = Path(args.mpa_path)
+mpa_input_path = Path(args.report_path)
 shutil.copy(
     mpa_input_path,
     args.write_dir_path / mpa_input_path.name
