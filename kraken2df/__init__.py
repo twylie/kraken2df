@@ -1,5 +1,6 @@
 from kraken2df.lib.argparse.command_line_arguments import CommandLineArguments  # type: ignore
 from kraken2df.lib.mpa2df.kraken_to_df import KrakenToDataframe  # type: ignore
+from kraken2df.lib.mpa2df.kraken_to_df_mpa import KrakenToDataframeMPA  # type: ignore
 from kraken2df.lib.taxonomy.taxonomy_reports import TaxonomyReports  # type: ignore
 from kraken2df.lib.taxonomy.domain_report import DomainReport  # type: ignore
 from kraken2df.lib.taxonomy.kingdom_report import KingdomReport  # type: ignore

@@ -1,9 +1,9 @@
 # Project     : kraken2df
 # File Name   : kraken_to_df.py
-# Description : XXX
+# Description : Converts a Kraken2 report to a dataframe.
 # Author      : Todd N. Wylie
 # Email       : twylie@wustl.edu
-# Created     : Thu Apr 18 21:40:56 CDT 2024
+# Created     : Thu May 16 14:37:00 CDT 2024
 # Copyright   : Copyright (C) 2024 by T.N. Wylie. All rights reserved.
 
 import pathlib

@@ -42,7 +42,7 @@ import shutil
 args = kraken2df.CommandLineArguments()
 args.write_dir_path.mkdir()
 
-kdf = kraken2df.KrakenToDataframe(
+kdf = kraken2df.KrakenToDataframeMPA(
     mpa=args.mpa_path,
     write_dir_path=args.write_dir_path
 )
