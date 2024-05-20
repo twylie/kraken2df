@@ -8,7 +8,8 @@
 # Created     : Mon May 13 09:47:51 CDT 2024
 # Copyright   : Copyright (C) 2024 by T.N. Wylie. All rights reserved.
 
-"""Parse the Kraken2 report and split into separate taxonomy reports.
+"""
+Parse the Kraken2 report and split into separate taxonomy reports.
 
 The following individual reports will be generated and collected into a
 TaxonomyReports object, which will be returned from this function.

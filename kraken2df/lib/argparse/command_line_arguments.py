@@ -10,7 +10,7 @@ import argparse
 import pathlib
 from typing_extensions import Self
 
-VERSION = '1.0'
+VERSION = '1.2'
 WRITE_DIR = 'kraken2df'
 
 
